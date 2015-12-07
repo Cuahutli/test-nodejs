@@ -39,6 +39,7 @@ router.route('/todo')
 
 // Si te pasan un parametro vía GET después de /todo, realiza las siguientes acciones:
 router.route('/todo/:id')
+	.get(todo_controller.getTodo)
     .delete(todo_controller.deleteTodo);
 
 // Indicamos a Express que trabajaremos con / como base (Podría ser que todas las rutas quisieramos que iniciaran con /api, por ejemplo)
