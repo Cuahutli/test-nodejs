@@ -8,7 +8,7 @@
   ],
   "author": "Cuahutli Miguel Ulloa Robles",
   "license": "ISC",
-  "repository": "https://github.com/Cuahutli/test-nodejs",
+  "repository": "https://github.com/Cuahutli/test-nodejs.git",
   "dependencies": {
     "body-parser": "^1.14.1",
     "express": "^4.13.3"
