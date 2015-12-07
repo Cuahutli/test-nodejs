@@ -1,0 +1,16 @@
+{
+  "name": "test-nodejs",
+  "version": "1.0.0",
+  "description": "Primer prueba  con nodejs",
+  "main": "server.js",
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Cuahutli Miguel Ulloa Robles",
+  "license": "ISC",
+  "repository": "https://github.com/Cuahutli/test-nodejs",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3"
+  }
+}
