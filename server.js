@@ -12,6 +12,7 @@ var app = express();                 // Definimos nuestra App usando Express
 // Configuramos la app para que use bodyParser()
 // Esto nos permitirá manejar peticiones POST
 app.use(bodyParser());
+app.use(express.static(__dirname + '/public'));
 
 var port = process.env.PORT || 3000;        // Indicamos el puerto que vamos a utilizar.
 
@@ -26,7 +27,9 @@ router.get('/', function (req, res) {
 
 // Indicamos a Express que trabajaremos con / como base (Podría ser que todas las rutas quisieramos que iniciaran con /api, por ejemplo)
 
-app.use('/', router);
+//app.use('/', router);
+app.use('/api', router);
+
 
 // INICIAMOS EL SERVIDOR
 // =============================================================================
