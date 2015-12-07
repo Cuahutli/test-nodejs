@@ -8,6 +8,9 @@
 "use strict";
 var express    = require('express');        // Llamamos a Express
 var bodyParser = require('body-parser');
+var mongoose   = require('mongoose');
+mongoose.connect('mongodb://localhost:27017/introduccionMean'); // Conexión a la base de datos
+
 var app = express();                 // Definimos nuestra App usando Express
 // Configuramos la app para que use bodyParser()
 // Esto nos permitirá manejar peticiones POST
