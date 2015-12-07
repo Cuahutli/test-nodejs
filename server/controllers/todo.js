@@ -100,6 +100,23 @@ module.exports = {
                 }
             });
         }
+    },
+
+	getTodo: function (req, res, next) {
+        Todo.getTodo(req.params.id, function (err, response) {
+            if (err) { // Si tenemos un error, devolvemos al cliente el error.
+                res.json({
+                    status: "ERR",
+                    message: "Ha ocurrido un error",
+                    error: err
+                });
+            } else { // Si no tenemos errores, devolvemos un mensaje satisfactorio.
+                res.json({
+                    status: "OK",
+                    data: response
+                });
+            }
+        });
     }
 
 };
