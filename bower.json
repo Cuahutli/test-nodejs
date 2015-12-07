@@ -1,25 +1,25 @@
 {
-	"name": "test-nodejs",
-	"description": "Primer prueba con nodejs",
-	"main": "server.js",
-	"authors": [
-		"Cuahutli Miguel Ulloa Robles"
-	],
-	"license": "UNLICENSED",
-	"keywords": [
-		"nodejs"
-	],
-	"homepage": "https://github.com/Cuahutli/test-nodejs",
-	"moduleType": [],
-	"private": true,
-	"ignore": [
-		"**/.*",
-		"node_modules",
-		"bower_components",
-		"test",
-		"tests"
-	],
-	"dependencies": {
-        "angular": "latest"
-    }
+  "name": "test-nodejs",
+  "description": "Primer prueba con nodejs",
+  "main": "server.js",
+  "authors": [
+    "Cuahutli Miguel Ulloa Robles"
+  ],
+  "license": "UNLICENSED",
+  "keywords": [
+    "nodejs"
+  ],
+  "homepage": "https://github.com/Cuahutli/test-nodejs",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "latest"
+  }
 }
