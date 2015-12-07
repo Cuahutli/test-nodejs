@@ -74,7 +74,7 @@ module.exports = {
                 res.json({
                     status: "OK",
                     data: response
-                });☻
+                });
             }
         });
     },
