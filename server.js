@@ -1,7 +1,6 @@
 // server.js
 // BASE
 // =============================================================================
-// Usamos los paquetes que necesitamos
 
 /*jslint node: true */
 /*jshint strict: true */
